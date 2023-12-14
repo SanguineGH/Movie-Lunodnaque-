@@ -7,11 +7,19 @@
     font-size: 16px;
   }
 }
-
+.container-fluid{
+    background-color:indianred;
+    color:white;
+}
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
-
+.a{
+    border:10px;
+    border-color:black;
+    font:italic;
+    font-size:10px;
+}
 html {
   position: relative;
   min-height: 100%;
@@ -116,3 +124,53 @@ div {
     .Preview {
         width: 100px;
     }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #e50914;
+    color: #fff;
+}
+
+tr.Clicky {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    tr.Clicky:hover {
+        background-color: #222;
+    }
+
+.poster-cell {
+    width: 100px;
+}
+
+.poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.Logout {
+    border: 10px;
+    border-color: black;
+    font: italic;
+    font-size: 10px;
+}
